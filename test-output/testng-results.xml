@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="104636" started-at="2019-12-16T21:36:42 IST" finished-at="2019-12-16T21:38:26 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="104636" started-at="2019-12-16T21:36:42 IST" finished-at="2019-12-16T21:38:26 IST">
+      <class name="ISR.apple">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ISR.apple@5c5a1b69]" name="setup" is-config="true" duration-ms="60501" started-at="2019-12-16T21:36:42 IST" finished-at="2019-12-16T21:37:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FCRA_registration()[pri:1, instance:ISR.apple@5c5a1b69]" name="FCRA_registration" duration-ms="15677" started-at="2019-12-16T21:37:42 IST" finished-at="2019-12-16T21:37:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FCRA_registration -->
+        <test-method status="PASS" signature="Pending_FCRA()[pri:2, instance:ISR.apple@5c5a1b69]" name="Pending_FCRA" duration-ms="132" started-at="2019-12-16T21:37:58 IST" finished-at="2019-12-16T21:37:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pending_FCRA -->
+        <test-method status="PASS" signature="Download_FCRA()[pri:3, instance:ISR.apple@5c5a1b69]" name="Download_FCRA" duration-ms="651" started-at="2019-12-16T21:37:58 IST" finished-at="2019-12-16T21:37:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Download_FCRA -->
+        <test-method status="PASS" signature="verified_fcra()[pri:4, instance:ISR.apple@5c5a1b69]" name="verified_fcra" duration-ms="27524" started-at="2019-12-16T21:37:59 IST" finished-at="2019-12-16T21:38:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verified_fcra -->
+      </class> <!-- ISR.apple -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

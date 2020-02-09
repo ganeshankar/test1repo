@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="ISR.apple">
+        <methods>
+          <include name="Pending_FCRA"/>
+          <include name="verified_fcra"/>
+          <include name="setup"/>
+          <include name="Download_FCRA"/>
+          <include name="FCRA_registration"/>
+        </methods>
+      </class> <!-- ISR.apple -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
